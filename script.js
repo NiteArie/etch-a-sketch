@@ -2,7 +2,6 @@
 function removeBoard(size) {
     let board = document.querySelector(".board");
     let boardRow = document.querySelectorAll(".board__row");
-    let removeCount = 0;
 
     for (let row of Array.from(boardRow)) {
         row.remove();
